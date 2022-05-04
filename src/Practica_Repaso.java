@@ -45,6 +45,6 @@ public class Practica_Repaso {
 	public static void multiplicar(float num1, float num2) {
 		System.out.println("La multiplicación de " + num1 + " y " + num2 + " es " + (num1*num2));
 	}
-	
+	//FALTA CREAR MÉTODO DE DIVIDIR PARA FUSIONAR LAS DOS RAMAS 
 
 }
