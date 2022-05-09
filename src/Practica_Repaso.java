@@ -23,9 +23,9 @@ public class Practica_Repaso {
 			case "multiplicación":
 				multiplicar(num1, num2);
 				break;
-//			case "división":
-//				
-//				break;
+			case "división":
+				dividir(num1, num2);
+				break;
 			default:
 				System.out.println("Operación Incorrecta");
 			
@@ -45,6 +45,9 @@ public class Practica_Repaso {
 	public static void multiplicar(float num1, float num2) {
 		System.out.println("La multiplicación de " + num1 + " y " + num2 + " es " + (num1*num2));
 	}
-	//FALTA CREAR MÉTODO DE DIVIDIR PARA FUSIONAR LAS DOS RAMAS 
+	public static void dividir(float num1, float num2) {
+		System.out.println("La división de " + num1 + " y " + num2 + " es " + (num1/num2));
+	}
+
 
 }
